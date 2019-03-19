@@ -1,10 +1,78 @@
-.view {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
-    background-size: cover;
+* {
+    margin: 0;
+    padding: 0;
 }
-html,
-body,
-header,
-.view {
-    height: 100%;
+
+body {
+
+    height: 1000px;
+    background: #b3d7ff;
+
 }
+
+.nav-link {
+    margin: 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 20px;
+
+}
+
+header {
+
+    margin: 15px;
+    /*border: 1px solid black;*/
+    background-color: white;
+
+}
+
+.navbar {
+    height: 55px;
+}
+
+.content img {
+    position: relative;
+    margin-left: 20px;
+}
+
+.tab-content {
+    position: relative;
+    height: 122px;
+    margin: 10px;
+
+}
+
+.icon {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+#content {
+
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+}
+
+#footer {
+    position: relative; /* Фиксированное положение */
+    top: 500px; /* Левый нижний угол */
+    margin: 15px; /* Поля вокруг текста */
+    color: black; /* Цвет текста */
+    width: auto; /* Ширина слоя */
+    /*border: 1px solid black;*/
+    background-color: white;
+
+}
+
+
+
+
+
+
+
